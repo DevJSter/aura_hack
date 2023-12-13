@@ -12,20 +12,7 @@
 body {
 	background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);}	
 
-	.custom-container {
-		flex: 1;
-		display: flex;
-		align-items: center;
-		position: relative;
-		margin-top: -2.4rem; /* Equivalent to -mt-24 in Tailwind */
-		height: 33rem; /* Equivalent to h-64 in Tailwind */
-	  }
-	  
-	  @media (min-width: 768px) {
-		.custom-container {
-		  margin-top: 0; /* Equivalent to md:mt-0 in Tailwind */
-		}
-	  }
+	
 
 .main {
 	width: 100%;

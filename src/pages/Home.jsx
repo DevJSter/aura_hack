@@ -1,21 +1,23 @@
-import React from 'react'
-// import  Header  from '../components/Header'
-import HeroSection from '../components/HeroSection'
-import FindJobsGlimpse from '../components/FindJobsGlimpse'
-import Testimonials from '../components/Testimonials'
-import ContactUs from '../components/ContactUs'
-import Timeline from '../components/timeline'
+import React from 'react';
+import HeroSection from '../components/HeroSection';
+import FindJobsGlimpse from '../components/FindJobsGlimpse';
+import Testimonials from '../components/Testimonials';
+import ContactUs from '../components/ContactUs';
+import Timeline from '../components/timeline';
+import Testimonials2 from '../components/Testimonials2';
 import '../index.css';
+
 const Home = () => {
   return (
     <div className=' overflow-hidden'>
       <HeroSection />
       <Testimonials />
-      <Timeline/>
+      <Timeline />
+      <Testimonials2 />
       <FindJobsGlimpse />
-      <ContactUs/>
+      <ContactUs />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

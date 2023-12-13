@@ -64,7 +64,7 @@ const NavBar = () => {
                 <div className="flex items-center gap-2">
                     <img src={Logo} width='75px' alt="logo" />
                     <Link to="/">
-                        <p className="text-lightModeTextColor text-2xl "><span className="font-semibold">Job-Set</span></p>
+                        <p className="text-lightModeTextColor text-2xl "><span className="font-semibold">Job</span>Hunt</p>
                     </Link>
                 </div>
                 <div className="flex items-center gap-8">
@@ -83,6 +83,7 @@ const NavBar = () => {
 
                         </NavLink>
 
+                      
                         <NavLink
                             className={({ isActive }) => (`text-lg relative block text-lightModeTextColor hover:text-lightPrimary cursor-pointer after:scale-x-0 ${isActive ? activeStyles : " "}`)}
                             // onClick={() => handleItemClick(1)}
@@ -102,7 +103,7 @@ const NavBar = () => {
                             to='/findjob'
                         >
                             <span className="relative">
-                                Find Job
+                                Find/Apply
                                 {/* {selectedItem === 2 && (
                                         <span className="border-b-2 ease-in-out border-lightPrimary animate-border-animation"></span>
                                     )} */}
@@ -210,7 +211,7 @@ const NavBar = () => {
                 <div className="flex items-center w-full justify-center">
                     <img src={Logo} width='55px' className="mx-1" alt="logo" />
                     <NavLink to={"/"}>
-                        <p className="text-lightModeTextColor text-xl "><span className="font-semibold">Job-</span>Set</p>
+                        <p className="text-lightModeTextColor text-xl "><span className="font-semibold">Job</span>Hunt</p>
                     </NavLink>
                 </div>
 
