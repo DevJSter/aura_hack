@@ -280,3 +280,120 @@ Experience the convenience of Google Login and kickstart your JobHunt journey wi
 
 ---
 
+
+# Technology Stack
+
+JobHunt is built with a robust technology stack, ensuring efficiency, scalability, and a seamless user experience.
+
+- **Frontend:** React.js
+- **Backend:** Node.js, Express.js
+- **Database:** Firebase Realtime Database
+- **Authentication:** Firebase Authentication
+- **Deployment:** Firebase Hosting
+
+# Getting Started
+
+To set up and run JobHunt locally, follow these simple steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/jobhunt.git
+   cd jobhunt
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+
+4. Open your browser and visit `http://localhost:3000` to view JobHunt locally.
+
+# Prerequisites
+
+Before running JobHunt, make sure you have the following installed:
+
+- Node.js
+- npm (Node Package Manager)
+
+# Demo/GIFs
+
+Explore the key functionalities of JobHunt through the following animated GIFs:
+
+![Demo 1](link_to_demo_1.gif)
+*Caption for Demo 1*
+
+![Demo 2](link_to_demo_2.gif)
+*Caption for Demo 2*
+
+# FAQs
+
+**Q: How can I reset my password?**
+A: Visit the login page and click on the "Forgot Password" link to initiate the reset process.
+
+**Q: Can I use JobHunt on mobile devices?**
+A: Yes, JobHunt is fully responsive and can be accessed on various devices, including smartphones and tablets.
+
+# Troubleshooting
+
+**Issue: Application fails to start**
+- Ensure that you have Node.js and npm installed.
+- Check your internet connection, as some dependencies may be fetched during installation.
+
+# Contributing Guidelines
+
+We welcome contributions from the community! If you'd like to contribute, follow these guidelines:
+
+1. Fork the repository.
+2. Create a new branch for your feature/bug fix.
+3. Commit your changes and submit a pull request.
+
+# Code of Conduct
+
+We adhere to a Code of Conduct to ensure a positive and inclusive environment for all contributors and users. Please review our [Code of Conduct](CODE_OF_CONDUCT.md) before participating.
+
+# Acknowledgments
+
+We express gratitude to the following individuals and organizations for their contributions, inspiration, and support:
+
+- [Name/Organization 1]
+- [Name/Organization 2]
+
+# License
+
+JobHunt is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+Certainly! Here's the modified section for deployment using Vercel:
+
+# Deployment
+
+To deploy JobHunt to Vercel:
+
+1. **Install the Vercel CLI:**
+   ```bash
+   npm install -g vercel
+   ```
+
+2. **Login to Vercel:**
+   ```bash
+   vercel login
+   ```
+
+3. **Deploy to Vercel:**
+   ```bash
+   vercel
+   ```
+
+4. **Follow the prompts to configure your deployment settings.**
+
+Visit the provided Vercel URL to access your deployed JobHunt application.
+
+# Note
+While Vercel is used for deployment, Firebase remains an integral part of JobHunt, handling Google authentication and file storage. Ensure that your Firebase configuration is properly set up for these functionalities.
+
+Feel free to adapt this section based on any specific deployment configurations or steps relevant to your project.
+Visit the provided hosting URL to access your deployed JobHunt application.
