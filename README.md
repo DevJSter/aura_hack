@@ -2,6 +2,66 @@
 
 Welcome to JobHunt, your ultimate platform for career growth and job opportunities.
 
+## Introduction
+
+JobHunt is more than just a job portal; it's your companion on the journey to a fulfilling career. Whether you're a recent graduate eager to kickstart your professional journey or an experienced professional seeking new challenges, JobHunt provides a seamless and empowering experience.
+
+## Table of Contents
+
+- [JobHunt](#jobhunt)
+  - [Introduction](#introduction)
+  - [Table of Contents](#table-of-contents)
+  - [Home](#home)
+    - [Hero Section](#hero-section)
+    - [Testimonials](#testimonials)
+    - [Placement Timeline](#placement-timeline)
+    - [Contact Us Section](#contact-us-section)
+  - [About Us](#about-us)
+    - [Our Mission](#our-mission)
+    - [What Sets Us Apart](#what-sets-us-apart)
+    - [Meet the Team](#meet-the-team)
+    - [Our Story](#our-story)
+    - [Join Us on the Journey](#join-us-on-the-journey)
+  - [Resources](#resources)
+    - [Featured Resources](#featured-resources)
+    - [Learning Paths](#learning-paths)
+    - [Webinars and Workshops](#webinars-and-workshops)
+    - [Additional Tools](#additional-tools)
+    - [Stay Informed, Stay Ahead](#stay-informed-stay-ahead)
+  - [Prediction](#prediction)
+    - [Factors Considered:](#factors-considered)
+    - [How It Works:](#how-it-works)
+    - [Make Informed Career Choices](#make-informed-career-choices)
+  - [Add Job](#add-job)
+    - [Abstracted and User-Friendly UI](#abstracted-and-user-friendly-ui)
+    - [Store Jobs with Firebase](#store-jobs-with-firebase)
+    - [How to Add a Job:](#how-to-add-a-job)
+    - [Empower Your Hiring Process](#empower-your-hiring-process)
+  - [Find/Apply Job](#findapply-job)
+    - [Browse Job Listings](#browse-job-listings)
+    - [Detailed Job Descriptions](#detailed-job-descriptions)
+    - [Seamless Application Process](#seamless-application-process)
+    - [Elevate Your Job Search](#elevate-your-job-search)
+  - [Login with Google](#login-with-google)
+    - [Why Google Login?](#why-google-login)
+    - [How to Login with Google:](#how-to-login-with-google)
+    - [Your Data, Your Control](#your-data-your-control)
+    - [Start Your Job Search Journey](#start-your-job-search-journey)
+- [Technology Stack](#technology-stack)
+- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Demo/GIFs](#demogifs)
+- [FAQs](#faqs)
+- [Troubleshooting](#troubleshooting)
+- [Contributing Guidelines](#contributing-guidelines)
+- [Code of Conduct](#code-of-conduct)
+- [Acknowledgments](#acknowledgments)
+- [License](#license)
+- [Deployment](#deployment)
+- [Note](#note)
+
+Feel free to jump to specific sections or explore the README to get a comprehensive understanding of JobHunt.
+
 ## Home
 
 ### Hero Section
