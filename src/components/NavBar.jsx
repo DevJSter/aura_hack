@@ -28,7 +28,6 @@ const NavBar = () => {
     const headerClasses = `z-50 w-screen p-3 px-4 md:p-6 md:px-16 bg-lightCard shadow-md ${visible ? "" : "hidden"
         }`;
 
-
     const dropDownHandle = () => {
         setIsMenu(!isMenu);
     }
@@ -41,8 +40,6 @@ const NavBar = () => {
             navigate('/');
         }, 500);
     }
-
-
 
     // Check if user was logged in previously or not
     useEffect(() => {
