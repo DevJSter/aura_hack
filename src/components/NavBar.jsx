@@ -112,31 +112,10 @@ const NavBar = () => {
               </span>
             </NavLink>
            
-            {isLoggedIn ? (
-              <>
-                <li
-                  className="flex gap-3 text-sm text-lightModeTextColor hover:text-lightPrimary cursor-pointer"
-                  onClick={dropDownHandle}
-                >
-                  <img
-                    src={ProfileImage}
-                    className="w-12 min-w-[40px] h-12 min-h-[40px] cursor-pointer rounded-full"
-                    alt="profile_picture"
-                  />
-                  <div className="flex flex-col justify-center">
-                    <div>Lionel Messi</div>
-                    <div className="text-lighttextGray text-sm -mt-1">
-                      Ui/Ux Designer
-                    </div>
-                  </div>
-                  <img src={DownArrow} alt="drop_down_menu" />
-                </li>
-              </>
-            ) : (
               <>
                 <Link to='./model/PredictionForm'>
                                     <li className="text-lg text-lightModeTextColor hover:text-lightPrimary duration-100 transition-all ease-in-out cursor-pointer">
-                                        Predict Your Chances
+                                        Prediction
                                     </li>
                                 </Link>
                 <Link to="https://job-hunt-meet.vercel.app/">
@@ -183,26 +162,12 @@ const NavBar = () => {
                   <SignUp />
                 </Link>
               </>
-            )}
+           
           </ul>
 
           <div className="relative">
             {isMenu && (
               <div className="z-50 w-[200px] bg-lightCard drop-shadow-lg rounded-lg flex flex-col absolute top-8 right-7 py-2">
-                <div className="flex px-4 py-2 cursor-pointer hover:bg-slate-100 transition-all duration-100 ease-in-out text-lightModeTextColor">
-                  <img
-                    src={EditProfileIcon}
-                    className="pl-1"
-                    alt="logout_icon"
-                  />
-                  <Link
-                    to="/user/info"
-                    className="w-full flex items-center justify-center gap-3"
-                    onClick={() => setIsMenu(false)}
-                  >
-                    Edit Profile
-                  </Link>
-                </div>
 
                 {userInfo && userInfo.role === 1 && (
                   <div className="flex px-4 py-2 cursor-pointer hover:bg-slate-100 transition-all duration-100 ease-in-out text-lightModeTextColor">
@@ -314,25 +279,30 @@ const NavBar = () => {
                   className="text-base text-lightModeTextColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2"
                   onClick={() => setIsMenu(false)}
                 >
-                  <NavLink to={"findjob"}>Find Job</NavLink>
-                </li>
-                <li
-                  className="text-base text-lightModeTextColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2"
-                  onClick={() => setIsMenu(false)}
-                >
-                  <NavLink to={"https://job-set-dashboard.netlify.app/"}>
-                    Dashboard
-                  </NavLink>
-                </li>
-                <li
-                  className="text-base text-lightModeTextColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2"
-                  onClick={() => setIsMenu(false)}
-                >
                   <NavLink to={"./model/PredictionForm/"}>
-                    Predict Your Placements
+                    Prediction
                   </NavLink>
+                </li>
+                <li
+                  className="text-base text-lightModeTextColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2"
+                  onClick={() => setIsMenu(false)}
+                >
+                  <NavLink to={"https://job-hunt-meet.vercel.app/"}>Connect</NavLink>
+                </li>
+                <li
+                  className="text-base text-lightModeTextColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2"
+                  onClick={() => setIsMenu(false)}
+                >
+                  <NavLink to={"add-job"}>Add Job</NavLink>
+                </li>
+                <li
+                  className="text-base text-lightModeTextColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2"
+                  onClick={() => setIsMenu(false)}
+                >
+                  <NavLink to={"findjob"}>Find/Apply</NavLink>
                 </li>
               </ul>
+              
               <p
                 className="m-2 p-2 rounded-md shadow-md flex items-center justify-center bg-lightPrimary gap-3 cursor-pointer hover:bg-gray-300 transition-all duration-100 ease-in-out text-lightCard text-base"
                 onClick={() => setIsMenu(false)}
