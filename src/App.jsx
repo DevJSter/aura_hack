@@ -3,7 +3,7 @@ import React from "react";
 import { Routes, BrowserRouter as Router, Route } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
+import PredictionForm from './model/PredictionForm';
 /* Components */
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
@@ -94,6 +94,8 @@ const App = () => {
           <Route path="/recentJobs" element={<RecentJobs />} />
           <Route path="/featuredJobs" element={<FeaturedJobs />} />
           <Route path="/addJob" element={<AddJobForm />} />
+          <Route path="/model/PredictionForm" element={<PredictionForm />} />
+          
           {/* Any Page that is not available will get redirected to not found using (*) */}
           <Route exact path="/findjob" element={<FindJob />} />
           <Route path="/search/location/:location" element={<FindJob />} />
