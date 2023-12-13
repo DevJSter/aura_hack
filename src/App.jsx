@@ -14,7 +14,7 @@ import NotFound from './pages/NotFound'
 import Resources from './pages/Resources'
 import FindJob from './pages/FindJob'
 import Policy from './components/Policy'
-import Demo from './components/GetIdeas';
+import Demo from './pages/Get';
 import LogIn from './pages/Login';
 import SignUp from './pages/SignUp';
 
