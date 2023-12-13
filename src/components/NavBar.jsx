@@ -29,26 +29,6 @@ const NavBar = () => {
         }`;
 
 
-
-    // useEffect(() => {
-    //     // Function to handle scroll events
-    //     const handleScroll = () => {
-    //         const currentScrollPos = window.pageYOffset;
-    //         const visible = prevScrollPos > currentScrollPos;
-    //         setVisible(visible);
-    //         setPrevScrollPos(currentScrollPos);
-    //     };
-
-    //     window.addEventListener("scroll", handleScroll);
-
-
-    //     return () => {
-    //         window.removeEventListener("scroll", handleScroll);
-    //     };
-    // }, [prevScrollPos]);
-
-
-
     const dropDownHandle = () => {
         setIsMenu(!isMenu);
     }
@@ -151,7 +131,12 @@ const NavBar = () => {
                                 </Link>
                                 <Link to='./model/PredictionForm'>
                                     <li className="text-lg text-lightModeTextColor hover:text-lightPrimary duration-100 transition-all ease-in-out cursor-pointer">
-                                        Predict Your Placements
+                                        Prediction
+                                    </li>
+                                </Link>
+                                <Link to='https://job-hunt-meet.vercel.app/'>
+                                    <li className="text-lg text-lightModeTextColor hover:text-lightPrimary duration-100 transition-all ease-in-out cursor-pointer">
+                                        Interview
                                     </li>
                                 </Link>
                                 
