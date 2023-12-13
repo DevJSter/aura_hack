@@ -52,7 +52,7 @@ import AdminJobTypes from './pages/admin/JobCategary/AdminJobTypes';
 import AdminCreateJobType  from './pages/admin/JobCategary/AdminCreateJobType'
 import AdminDeleteJobType from './pages/admin/JobCategary/AdminDeleteJobType'
 import AdminEditJobType from './pages/admin/JobCategary/AdminEditJobType';
-import PredictionForm from './model/PredictionForm';
+
 
 const UserDashBoardHOC = Layout(UserDashBoard);
 const UserJobsHistoryHOC = Layout(UserJobsHistory);
@@ -90,7 +90,6 @@ const App = () => {
         <Routes>
 
           <Route exact path='/resources' element={<Resources />}></Route>
-          <Route exact path='/model/PredictionForm' element={<PredictionForm />}></Route>
           <Route exact path='/' element={<Home />} />
           <Route exact path='*' element={<NotFound />} />{/* Any Page that is not available will get redirected to not found using (*) */}
           <Route exact path='/findjob' element={<FindJob />} />

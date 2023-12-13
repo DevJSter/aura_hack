@@ -14,7 +14,6 @@ import { useEffect } from "react";
 import { userLogOutAction } from "../redux/actions/userAction";
 import SignUp from '../pages/SignUp'
 import Login from '../pages/Login'
-import PredictionForm from "../model/PredictionForm";
 
 
 
