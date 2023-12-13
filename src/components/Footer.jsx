@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <div className='mt-15'>
       {/* For Desktops */}
-      <div className='hidden w-screen md:flex flex-col bg-lightPrimary mt-14'>
+      <div className='hidden w-screen md:flex flex-col bg-lightPrimary mt-36'>
         <SubcribeComponent />
         <div className=' md:mt-40 p-16'>
           <div className="flex flex-col items-center justify-center">

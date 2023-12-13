@@ -9,6 +9,8 @@ import { jobTypeLoadAction } from "../redux/actions/jobTypeAction";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import SlcComponent from "../components/SlcComponent";
 import SearchInputEl from "../components/SearchInput";
+import Joblist from "../components/JobList";
+import RecentJobs from "../components/RecentJobs";
 
 const dummyColleges = [
   {
@@ -340,14 +342,16 @@ const FindJob = () => {
                   </div>
                 ))} */}
 
+                <RecentJobs />
+
                 <ul>
-                  {filteredColleges.map((college) => (
+                  {/* {filteredColleges.map((college) => (
                     <CardElement
                       id={college.id}
                       jobTitle={college.name}
                       description={college.description}
                     />
-                  ))}
+                  ))} */}
                 </ul>
 
                 {/* <div>
