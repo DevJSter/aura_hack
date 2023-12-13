@@ -201,3 +201,82 @@ Job postings are securely stored using Firebase, ensuring data persistence even 
 JobHunt's Add Job feature simplifies the hiring process, allowing you to reach a vast pool of talented individuals actively seeking opportunities.
 
 ---
+
+Let's move on to the **Find/Apply Job** section:
+
+## Find/Apply Job
+
+Embark on your journey to discover and apply for exciting job opportunities on JobHunt. The Find/Apply Job section showcases all the information you need to make informed decisions about your career.
+
+### Browse Job Listings
+
+Explore a diverse range of job listings from various industries. Filter and search based on criteria such as:
+
+- **Job Title:** Find roles that match your skills and aspirations.
+  
+- **Organization:** Discover opportunities with companies that align with your values.
+
+- **Job Type:** Filter between full-time, part-time, and freelance positions.
+
+### Detailed Job Descriptions
+
+Click on a job listing to access a detailed description, including:
+
+- **Organization Name:** Learn more about the company behind the job opening.
+
+- **Job Title:** Understand the role's responsibilities and requirements.
+
+- **Job Type:** Know whether it's a full-time, part-time, or freelance position.
+
+- **Description:** Gain insights into the nature of the job and what is expected from applicants.
+
+### Seamless Application Process
+
+Applying for your dream job is just a click away:
+
+1. **Login:** Log in with your JobHunt account or use Google authentication for a seamless experience.
+
+2. **Submit Application:** Hit the "Apply Now" button to express your interest in a position.
+
+3. **Track Application Status:** Monitor the status of your applications through your JobHunt dashboard.
+
+### Elevate Your Job Search
+
+JobHunt's Find/Apply Job section is designed to simplify your job search process. Explore opportunities, apply with ease, and take the next step towards a rewarding career.
+
+---
+
+Let's now explore the **Login with Google** section:
+
+## Login with Google
+
+Enjoy a seamless and secure authentication process with JobHunt's Google Login feature. Logging in has never been easier, ensuring a swift and hassle-free experience for users.
+
+### Why Google Login?
+
+- **Effortless Access:** Sign in to JobHunt with just one click, eliminating the need to remember additional credentials.
+
+- **Security First:** Leverage Google's robust security measures to safeguard your JobHunt account.
+
+- **Time-Saving:** Save time by skipping the traditional username/password entry process.
+
+### How to Login with Google:
+
+1. **Click on Google Login:** On the JobHunt login page, simply click on the "Login with Google" button.
+
+2. **Select Google Account:** Choose the Google account associated with your JobHunt profile.
+
+3. **Authorization:** Grant permission to JobHunt to access your Google account securely.
+
+4. **Welcome to JobHunt:** You're now logged in and ready to explore the multitude of opportunities JobHunt has to offer.
+
+### Your Data, Your Control
+
+Rest assured that your privacy is a top priority. JobHunt only accesses the necessary information for a smooth user experience and does not store any sensitive Google account details.
+
+### Start Your Job Search Journey
+
+Experience the convenience of Google Login and kickstart your JobHunt journey without the hassle of remembering yet another set of credentials.
+
+---
+
