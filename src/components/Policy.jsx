@@ -7,8 +7,6 @@ const Policy = () => {
       {/* Your Navbar component here */}
 
       {/* Sample Image */}
-    
-
       {/* Privacy Policy Section */}
       <div className="grid grid-cols-2">
         {/* First section (Privacy Policy) */}

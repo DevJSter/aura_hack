@@ -46,7 +46,7 @@ const Testimonials = () => {
                                         <div className="flex w-full items-center justify-center gap-3">
                                             <img src={Avatar} alt="" className="w-10 rounded-full" />
                                             <div className="flex flex-col items-start font-medium text-[1rem]">
-                                                <p>Pravin Singh</p>
+                                                <p>Shubham Tiwari</p>
                                                 <p className="text-lightPrimary text-[0.7rem] leading-3">UI/UX Designer</p>
                                             </div>
                                         </div>
