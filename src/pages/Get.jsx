@@ -1,6 +1,6 @@
 import React from 'react'
 
-const GetIdeas = () => {
+const Get = () => {
   return (
     <div>
      
@@ -8,4 +8,4 @@ const GetIdeas = () => {
   )
 }
 
-export default GetIdeas
+export default Get

@@ -7,7 +7,6 @@ import 'react-toastify/dist/ReactToastify.css';
 /* Components */
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
-import GetIdeas from './pages/GetIdeas';
 
 /* Pages*/
 import Home from './pages/Home'
@@ -94,7 +93,6 @@ const App = () => {
           <Route exact path='/' element={<Home />} />
           <Route exact path='*' element={<NotFound />} />{/* Any Page that is not available will get redirected to not found using (*) */}
           <Route exact path='/findjob' element={<FindJob />} />
-          <Route exact path='/getideas' element={<GetIdeas />} />
           <Route path='/search/location/:location' element={<FindJob />} />
           <Route path='/search/:keyword' element={<FindJob />} />
           <Route path='/job/:id' element={<SingleJob />} />
