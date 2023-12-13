@@ -9,6 +9,8 @@ import SubcribeComponent from './SubcribeComponent'
 
 
 const Footer = () => {
+
+  
   return (
     <div className='mt-15'>
       {/* For Desktops */}
