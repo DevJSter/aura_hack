@@ -126,11 +126,6 @@ const NavBar = () => {
                                         DashBoard
                                     </li>
                                 </Link>
-                                {/* <Link to='./model/PredictionForm'>
-                                    <li className="text-lg text-lightModeTextColor hover:text-lightPrimary duration-100 transition-all ease-in-out cursor-pointer">
-                                        Prediction
-                                    </li>
-                                </Link> */}
                                 <Link to='https://job-hunt-meet.vercel.app/'>
                                     <li className="text-lg text-lightModeTextColor hover:text-lightPrimary duration-100 transition-all ease-in-out cursor-pointer">
                                         Connect
