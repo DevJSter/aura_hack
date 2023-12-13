@@ -14,6 +14,7 @@ import { useEffect } from "react";
 import { userLogOutAction } from "../redux/actions/userAction";
 import SignUp from "../pages/SignUp";
 import Login from "../pages/Login";
+import PredictionForm from "../model/PredictionForm"
 
 const NavBar = () => {
   const [isMenu, setIsMenu] = useState(false);
@@ -73,22 +74,7 @@ const NavBar = () => {
         </div>
         <div className="flex items-center gap-8">
           <ul className="flex items-center gap-10">
-            <NavLink
-              className={({ isActive }) =>
-                `text-lg relative block text-lightModeTextColor hover:text-lightPrimary cursor-pointer after:scale-x-0 ${
-                  isActive ? activeStyles : " "
-                }`
-              }
-              // onClick={() => handleItemClick(0)}
-              to="/add-job"
-            >
-              <span className="relative">
-                Add Job
-                {/* {selectedItem === true && (
-                                        <span className="border-b-2 ease-in-out border-lightPrimary animate-border-animation"></span>
-                                    )} */}
-              </span>
-            </NavLink>
+            
 
             <NavLink
               className={({ isActive }) =>
@@ -106,6 +92,8 @@ const NavBar = () => {
                                     )} */}
               </span>
             </NavLink>
+            
+            
 
             <NavLink
               className={({ isActive }) =>
@@ -123,22 +111,7 @@ const NavBar = () => {
                                     )} */}
               </span>
             </NavLink>
-            <NavLink
-              className={({ isActive }) =>
-                `text-lg relative block text-lightModeTextColor hover:text-lightPrimary cursor-pointer after:scale-x-0 ${
-                  isActive ? activeStyles : " "
-                }`
-              }
-              // onClick={() => handleItemClick(2)}
-              to="/findjob"
-            >
-              <span className="relative">
-                Find/Apply
-                {/* {selectedItem === 2 && (
-                                        <span className="border-b-2 ease-in-out border-lightPrimary animate-border-animation"></span>
-                                    )} */}
-              </span>
-            </NavLink>
+           
             {isLoggedIn ? (
               <>
                 <li
@@ -161,16 +134,50 @@ const NavBar = () => {
               </>
             ) : (
               <>
-                <Link to="https://job-set-dashboard.netlify.app/">
-                  <li className="text-lg text-lightModeTextColor hover:text-lightPrimary duration-100 transition-all ease-in-out cursor-pointer">
-                    DashBoard
-                  </li>
-                </Link>
+                <Link to='./model/PredictionForm'>
+                                    <li className="text-lg text-lightModeTextColor hover:text-lightPrimary duration-100 transition-all ease-in-out cursor-pointer">
+                                        Predict Your Chances
+                                    </li>
+                                </Link>
                 <Link to="https://job-hunt-meet.vercel.app/">
                   <li className="text-lg text-lightModeTextColor hover:text-lightPrimary duration-100 transition-all ease-in-out cursor-pointer">
                     Connect
                   </li>
                 </Link>
+
+                <NavLink
+              className={({ isActive }) =>
+                `text-lg relative block text-lightModeTextColor hover:text-lightPrimary cursor-pointer after:scale-x-0 ${
+                  isActive ? activeStyles : " "
+                }`
+              }
+              // onClick={() => handleItemClick(0)}
+              to="/add-job"
+            >
+              <span className="relative">
+                Add Job
+                {/* {selectedItem === true && (
+                                        <span className="border-b-2 ease-in-out border-lightPrimary animate-border-animation"></span>
+                                    )} */}
+              </span>
+            </NavLink>
+            
+            <NavLink
+              className={({ isActive }) =>
+                `text-lg relative block text-lightModeTextColor hover:text-lightPrimary cursor-pointer after:scale-x-0 ${
+                  isActive ? activeStyles : " "
+                }`
+              }
+              // onClick={() => handleItemClick(2)}
+              to="/findjob"
+            >
+              <span className="relative">
+                Find/Apply
+                {/* {selectedItem === 2 && (
+                                        <span className="border-b-2 ease-in-out border-lightPrimary animate-border-animation"></span>
+                                    )} */}
+              </span>
+            </NavLink>
 
                 <Link>
                   <SignUp />
