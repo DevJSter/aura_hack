@@ -14,6 +14,7 @@ import { useEffect } from "react";
 import { userLogOutAction } from "../redux/actions/userAction";
 import SignUp from '../pages/SignUp'
 import Login from '../pages/Login'
+import GetIdeas from './pages/GetIdeas'
 
 
 
@@ -120,6 +121,11 @@ const NavBar = () => {
                             </>
                         ) : (
                             <>
+                             <Link to='/GetIdeas'>
+                                    <li className="text-lg text-lightModeTextColor hover:text-lightPrimary duration-100 transition-all ease-in-out cursor-pointer">
+                                        GetIdeas
+                                    </li>
+                                </Link>
                                 <Link to='https://job-set-dashboard.netlify.app/'>
                                     <li className="text-lg text-lightModeTextColor hover:text-lightPrimary duration-100 transition-all ease-in-out cursor-pointer">
                                         DashBoard
