@@ -20,7 +20,7 @@ const Footer = () => {
               
             </div>
             <div className="text-footerSubtitle font-extralight md:text-xl">
-              Job-set toh life set
+              JobHunt toh life set
             </div>
           </div>
           <div className="border border-footerSubtitle border-t-[0.1px] border-b-[0.1px] border-l-0 border-r-0 py-16 mt-9 flex items-center justify-center gap-36 text-xl font-medium text-lightCard">
@@ -28,7 +28,7 @@ const Footer = () => {
               <img src={MailIcon} alt="mail_icon" className='w-7' />
               <div>Mail</div>
               <div className='text-sm font-thin'>
-                CampusConnect@support.com
+                @support.com
               </div>
             </div>
             <div className='flex flex-col items-center justify-center gap-2'>
@@ -47,7 +47,7 @@ const Footer = () => {
             </div>
           </div>
           <div className='mt-9 flex justify-between text-lightCard'>
-            <div>Copyright © 2023 Job-Set. All rights reserved.</div>
+            <div>Copyright © 2023 JobHunt. All rights reserved.</div>
             <div className='flex gap-2'>
               <a href="https://github.com/SizzlingDev-s" target="_blank" rel="noopener noreferrer">
                   <img src={GithubIcon} alt="github_icon" className="w-10" />
@@ -64,8 +64,8 @@ const Footer = () => {
       {/* For Mobiles */}
       <div className='md:hidden bg-lightPrimary p-8'>
         <div className='flex flex-col items-center justify-center'>
-          <p className='text-lightCard text-xl'>CampusConnect</p>
-          <p className='text-footerSubtitle font-extralight text-sm'>Job set tho life set</p>
+          <p className='text-lightCard text-xl'>JobHunt</p>
+          <p className='text-footerSubtitle font-extralight text-sm'>JobHunt  tho  life  set</p>
         </div>
 
         <div className='flex items-center justify-center mt-6 text-lightCard gap-3'>
@@ -73,7 +73,7 @@ const Footer = () => {
               <img src={MailIcon} alt="mail_icon" className='w-5' />
               <div>Mail</div>
               <div className='text-[10px] font-thin'>
-                CampusConnect@support.com
+                JobHunt@support.com
               </div>
             </div>
             <div className='flex flex-col items-center justify-center gap-2'>
@@ -94,7 +94,7 @@ const Footer = () => {
 
         </div>
         <div className='mt-9 text-[12px] flex items-center justify-between text-lightCard'>
-            <div>Copyright © 2023 CampusConnect. All rights reserved.</div>
+            <div>Copyright © 2023 JobHunt. All rights reserved.</div>
             <div className='flex gap-2'>
             <a href="https://github.com/SizzlingDev-s" target="_blank" rel="noopener noreferrer">
                   <img src={GithubIcon} alt="github_icon" className="w-5" />

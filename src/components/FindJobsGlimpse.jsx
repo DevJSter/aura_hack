@@ -19,7 +19,7 @@ const FindJobsGlimpse = () => {
         <br /><br />  
         <div className='flex flex-col gap-4'>
           <p className="text-lightModeTextColor text-center font-semibold md:text-justify md:w-[85%] flex-wrap text-xl">
-            Make Your Dreams Work: Find Your Dream Job
+          "Freelance Your Future: Transform Dreams into Careers with Our Dream Job Platform."
           </p>
           <p className="text-lightModeTextColor text-center text-sm md:text-justify md:w-[85%] flex-wrap">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown

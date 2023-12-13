@@ -2,6 +2,52 @@
   text-align: center;
 }
 
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline {
+  list-style: none;
+  padding: 0;
+}
+
+.timeline-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.timeline-content {
+  padding: 20px;
+  border-radius: 8px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.heading {
+  margin-bottom: 10px;
+}
+
+.date {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #777;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #333;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
