@@ -10,7 +10,7 @@ const App = () => {
         <div className="container">
   <ul className="timeline">
     <li className="timeline-item">
-      <div className="timeline-content" >
+      <div >
         <h3 className="heading">FrontEnd Developer</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
         <span className="date">January 2021</span>
@@ -18,26 +18,26 @@ const App = () => {
       </div>
     </li>
     <li className="timeline-item">
-      <div className="timeline-content" >
+      <div  >
         <h3 className="heading">BackEnd Developer</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-        <span className="date">February 2021</span>
+        <span className="date">February 2022</span>
         <span className="circle"></span>
       </div>
     </li>
     <li className="timeline-item">
-      <div className="timeline-content" >
+      <div >
         <h3 className="heading">Full Stack Developer</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-        <span className="date">March 2021</span>
+        <span className="date">March 2023</span>
         <span className="circle"></span>
       </div>
     </li>
     <li className="timeline-item">
-      <div className="timeline-content" >
-        <h3 className="heading">App Developer</h3>
+      <div >
+        <h3 className="heading">Web3.0/Blockchain</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-        <span className="date">April 2021</span>
+        <span className="date">April 2024</span>
         <span className="circle"></span>
       </div>
     </li>
