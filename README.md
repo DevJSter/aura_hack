@@ -32,7 +32,7 @@ JobHunt is your companion on the journey to a fulfilling career. Whether you're 
   - [Prediction](#prediction)
     - [Factors Considered:](#factors-considered)
     - [How It Works:](#how-it-works)
-- [Updates about How we Make API Calls ( Using the ngrok module )](#updates-about-how-we-make-api-calls--using-the-ngrok-module-)
+    - [Updates about How we Make API Calls ( Using the ngrok module )](#updates-about-how-we-make-api-calls--using-the-ngrok-module-)
   - [Overview](#overview)
   - [Instructions](#instructions)
   - [FastAPI Module](#fastapi-module)
@@ -76,8 +76,7 @@ Feel free to jump to specific sections or explore the README to get a comprehens
 
 ### Hero Section
 
-![image](https://github.com/DevJSter/aura_hack/assets/115056248/9b0f8e6c-537f-47c0-a629-e2f081927981)
-
+![image](https://github.com/SizzlingDev-s/aura_hack/assets/115056248/8f5f538c-26b7-45f4-b0de-3d09a77d7f8e)
 
 JobHunt is more than just a job portal; it's your companion on the journey to a fulfilling career. Our Hero Section introduces you to a world of possibilities, with:
 
@@ -233,7 +232,7 @@ Unleash the power of predictive analysis with JobHunt! Our advanced algorithm co
    - Receive practical and actionable recommendations to enhance your job search prospects.
    - Benefit from targeted advice on improving specific aspects of your professional profile.
 
-# Updates about How we Make API Calls ( Using the ngrok module )
+# Updates about How we Make API Calls : 
 
 ## Overview
 
@@ -367,7 +366,8 @@ Let's move on to the **Find/Apply Job** section:
 
 Embark on your journey to discover and apply for exciting job opportunities on JobHunt. The Find/Apply Job section showcases all the information you need to make informed decisions about your career.
 
-![image](https://github.com/DevJSter/aura_hack/assets/115056248/bf19c3c8-c47b-4065-9fdb-c97ffea5c450)
+![image](https://github.com/SizzlingDev-s/aura_hack/assets/115056248/fbe73115-ab26-4970-a783-3a6665ae62bd)
+![image](https://github.com/SizzlingDev-s/aura_hack/assets/115056248/c7946744-a4d7-488f-8477-270231ed54fb)
 
 
 ### Browse Job Listings
