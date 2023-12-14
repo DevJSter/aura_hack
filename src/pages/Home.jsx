@@ -13,7 +13,6 @@ const Home = () => {
       <HeroSection />
       <Testimonials />
       <Timeline />
-      <Testimonials2 />
       <FindJobsGlimpse />
       <ContactUs />
     </div>
