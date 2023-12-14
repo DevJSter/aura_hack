@@ -1,10 +1,15 @@
 # JobHunt
 
 Welcome to JobHunt, your ultimate platform for career growth and job opportunities.
+This solution was generated at Aura HackFest'23 Powered by GeeksForGeeks!
 
 ## Introduction
 
 JobHunt is your companion on the journey to a fulfilling career. Whether you're a recent graduate eager to kickstart your professional journey or an experienced professional seeking new challenges, JobHunt provides a seamless and empowering experience.
+
+## JobBoard Theme
+
+Welcome to JobBoard Theme, a groundbreaking solution for streamlined job searching and recruitment. Watch our [introductory video](https://youtu.be/pOie0Y83nZ8) for a quick overview, and revolutionize your employment experience today.
 
 ## Table of Contents
 
@@ -196,6 +201,9 @@ JobHunt is not just a job portal; it's a hub of knowledge and tools designed to 
 ## Prediction
 
 Unleash the power of predictive analysis with JobHunt! Our advanced algorithm considers a range of factors to deliver personalized insights into your job market success.
+
+![prediction](https://github.com/SizzlingDev-s/aura_hack/assets/115056248/30620661-217a-4aec-a4bc-c18171d9103c)
+
 
 ### Factors Considered:
 
