@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Lottie from "lottie-react";
-// import CustomButton from "./CustomButton";
-import NotFound from "../images/nonfound.svg";
+import CustomButton from "./CustomButton";
+import NotFound from "../img/nonfound.svg";
 
 const HomeCard = ({
   title,
@@ -43,12 +43,12 @@ const HomeCard = ({
             </p>
             <div className="  mt-4">
               <a href="https://t.me/shubh007123" target="_blank">
-                {/* <CustomButton
+                <CustomButton
                   text={"Apply Job"}
                   bgColor={"lightBlue"}
                   textColor={"white"}
                   width={"full"}
-                /> */}
+                />
               </a>
             </div>
           </div>
@@ -117,11 +117,11 @@ const HomeCard = ({
                     <p className=" w-[85%] mt-6 text-gray-600">
                       {item.description}
                     </p>
-                    {/* <CustomButton
+                    <CustomButton
                       text={"Apply Job"}
                       bgColor={"lightBlue"}
                       textColor={"white"}
-                    /> */}
+                    />
                   </div>
                 </div>
               </div>

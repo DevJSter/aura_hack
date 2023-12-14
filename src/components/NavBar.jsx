@@ -123,23 +123,6 @@ const NavBar = () => {
                     Connect
                   </li>
                 </Link>
-
-                <NavLink
-              className={({ isActive }) =>
-                `text-lg relative block text-lightModeTextColor hover:text-lightPrimary cursor-pointer after:scale-x-0 ${
-                  isActive ? activeStyles : " "
-                }`
-              }
-              // onClick={() => handleItemClick(0)}
-              to="/add-job"
-            >
-              <span className="relative">
-                Add Job
-                {/* {selectedItem === true && (
-                                        <span className="border-b-2 ease-in-out border-lightPrimary animate-border-animation"></span>
-                                    )} */}
-              </span>
-            </NavLink>
             
             <NavLink
               className={({ isActive }) =>
@@ -288,12 +271,6 @@ const NavBar = () => {
                   onClick={() => setIsMenu(false)}
                 >
                   <NavLink to={"https://job-hunt-meet.vercel.app/"}>Connect</NavLink>
-                </li>
-                <li
-                  className="text-base text-lightModeTextColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2"
-                  onClick={() => setIsMenu(false)}
-                >
-                  <NavLink to={"add-job"}>Add Job</NavLink>
                 </li>
                 <li
                   className="text-base text-lightModeTextColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2"

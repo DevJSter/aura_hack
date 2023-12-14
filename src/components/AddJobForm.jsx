@@ -6,7 +6,7 @@ import {
   ref,
   uploadBytesResumable,
 } from "firebase/storage";
-import { storage } from "../pages/config";
+import { storage } from "../firebase.config";
 import { getAllJobData, saveItem } from "../utils/firebaseFunctions";
 import { actionType } from "../context/reducer";
 import { useStateValue } from "../context/StateProvider";
@@ -89,7 +89,7 @@ const AddJobForm = () => {
   const saveDetails = () => {
     setIsLoading(true);
     try {
-      if (!title || !description  || !type || !organization) {
+      if (!title || !description || !imageAsset || !type || !organization) {
         setFields(true);
         setMsg("Required fields can't be empty");
         setAlertStatus("danger");
@@ -136,7 +136,7 @@ const AddJobForm = () => {
     setImageAsset(null);
     setDescription("");
     setType("");
-    setOrganization("");
+    setOrganization("")
   };
 
   const fetchData = async () => {
@@ -283,7 +283,7 @@ const AddJobForm = () => {
           <div className="flex items-center w-full">
             <button
               type="button"
-              className="ml-0 md:ml-auto w-full md:w-auto bg-black border-none outline-none bg-lightBlue px-12 py-2 rounded-lg text-lg text-white font-semibold"
+              className="ml-0 md:ml-auto w-full md:w-auto border-none outline-none bg-lightBlue px-12 py-2 rounded-lg text-lg text-white font-semibold"
               onClick={saveDetails}
             >
               Save
