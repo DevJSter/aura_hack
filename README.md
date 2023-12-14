@@ -2,9 +2,72 @@
 
 Welcome to JobHunt, your ultimate platform for career growth and job opportunities.
 
+## Introduction
+
+JobHunt is your companion on the journey to a fulfilling career. Whether you're a recent graduate eager to kickstart your professional journey or an experienced professional seeking new challenges, JobHunt provides a seamless and empowering experience.
+
+## Table of Contents
+
+1. [Home](#home)
+   - [Hero Section](#hero-section)
+   - [Testimonials](#testimonials)
+   - [Placement Timeline](#placement-timeline)
+   - [Contact Us](#contact-us)
+2. [About Us](#about-us)
+   - [Mission](#our-mission)
+   - [What Sets Us Apart](#what-sets-us-apart)
+   - [Meet the Team](#meet-the-team)
+   - [Our Story](#our-story)
+3. [Resources](#resources)
+   - [Featured Resources](#featured-resources)
+   - [Learning Paths](#learning-paths)
+   - [Webinars and Workshops](#webinars-and-workshops)
+   - [Additional Tools](#additional-tools)
+4. [Prediction](#prediction)
+   - [Factors Considered](#factors-considered)
+   - [How It Works](#how-it-works)
+   - [Make Informed Career Choices](#make-informed-career-choices)
+5. [Connect](#connect)
+   - [Seamless Networking](#seamless-networking)
+   - [Key Features](#key-features)
+   - [How It Works](#how-it-works-1)
+   - [Elevate Your Networking Experience](#elevate-your-networking-experience)
+6. [Add Job](#add-job)
+   - [Abstracted and User-Friendly UI](#abstracted-and-user-friendly-ui)
+   - [Store Jobs with Firebase](#store-jobs-with-firebase)
+   - [How to Add a Job](#how-to-add-a-job)
+   - [Empower Your Hiring Process](#empower-your-hiring-process)
+7. [Find/Apply Job](#findapply-job)
+   - [Browse Job Listings](#browse-job-listings)
+   - [Detailed Job Descriptions](#detailed-job-descriptions)
+   - [Seamless Application Process](#seamless-application-process)
+   - [Elevate Your Job Search](#elevate-your-job-search)
+8. [Login with Google](#login-with-google)
+   - [Effortless Access](#effortless-access)
+   - [Security First](#security-first)
+   - [Time-Saving](#time-saving)
+   - [How to Login with Google](#how-to-login-with-google)
+   - [Your Data, Your Control](#your-data-your-control)
+   - [Start Your Job Search Journey](#start-your-job-search-journey)
+9. [Technology Stack](#technology-stack)
+10. [Getting Started](#getting-started)
+11. [Prerequisites](#prerequisites)
+12. [Demo/GIFs](#demogifs)
+13. [FAQs](#faqs)
+14. [Troubleshooting](#troubleshooting)
+15. [Contributing Guidelines](#contributing-guidelines)
+16. [Code of Conduct](#code-of-conduct)
+17. [Acknowledgments](#acknowledgments)
+18. [License](#license)
+19. [Deployment](#deployment)
+
+Feel free to jump to specific sections or explore the README to get a comprehensive understanding of JobHunt.
+
 ## Home
 
 ### Hero Section
+
+![image](https://github.com/DevJSter/aura_hack/assets/115056248/9b0f8e6c-537f-47c0-a629-e2f081927981)
 
 
 JobHunt is more than just a job portal; it's your companion on the journey to a fulfilling career. Our Hero Section introduces you to a world of possibilities, with:
@@ -25,7 +88,8 @@ JobHunt is more than just a job portal; it's your companion on the journey to a 
 
 ### Placement Timeline
 
-![Timeline](link_to_timeline_image)
+![image](https://github.com/DevJSter/aura_hack/assets/115056248/d42660f3-050b-4730-93a0-f784825d43e8)
+
 
 Explore the success stories of individuals who have found their dream jobs through JobHunt. Our placement timeline showcases real journeys, proving that your success story could be next!
 
@@ -70,7 +134,7 @@ Every great platform has a story, and JobHunt is no exception. Discover the jour
 ### Join Us on the Journey
 
 Whether you're a recent graduate, a seasoned professional, or a company looking for top talent, JobHunt welcomes you to join us on this exciting journey. Together, we'll redefine the way careers are built and opportunities are discovered.
-
+---
 
 Let's move on to the **Resources** section:
 
@@ -165,6 +229,49 @@ Unleash the power of predictive analysis with JobHunt! Our advanced algorithm co
 JobHunt's Prediction feature isn't just a tool; it's your personalized career advisor. Navigate the job market with confidence, armed with detailed insights that empower you to make informed and strategic career decisions.
 
 ---
+# Connect
+![image](https://github.com/DevJSter/aura_hack/assets/115056248/e9b04dc3-8d98-43bd-817c-c3c54df1b1d3)
+
+## Seamless Networking for Job Seekers and Employers
+
+Introducing the Connect feature, designed to foster meaningful connections between job seekers and employers. JobHunt goes beyond traditional job portals by providing a platform for virtual networking through video chat. Whether you're a job seeker looking to make a lasting impression or an employer eager to meet potential candidates, the Connect feature ensures a seamless and personalized interaction.
+
+### Key Features
+
+1. **Video Chat Capability:**
+   - Engage in face-to-face conversations with job seekers or employers using our integrated video chat feature.
+   - Build a stronger connection by showcasing your personality and communication skills in real-time.
+
+2. **Chat and Greet:**
+   - Initiate conversations with a simple chat interface.
+   - Exchange greetings, share additional details, and create a comfortable atmosphere for networking.
+
+3. **Meeting Scheduling:**
+   - Plan and schedule virtual meetings at your convenience.
+   - Coordinate interviews, discussions, or casual chats effortlessly.
+
+### How It Works
+
+1. **Access the Connect Section:**
+   - Log in to your JobHunt account and navigate to the Connect section.
+
+2. **Browse Profiles:**
+   - Explore profiles of job seekers and employers who are open to networking.
+
+3. **Initiate Connections:**
+   - Send connection requests and express your interest in connecting.
+
+4. **Schedule Meetings:**
+   - Coordinate meetings using the integrated scheduling tool.
+
+5. **Enjoy Seamless Video Chat:**
+   - Engage in virtual conversations and make meaningful connections.
+
+### Elevate Your Networking Experience
+
+JobHunt's Connect feature transforms traditional job searching by adding a human touch to the process. Whether you're a job seeker looking to make a memorable impression or an employer eager to find the perfect candidate, Connect brings you one step closer to your goals.
+
+---
 
 ## Add Job
 
@@ -172,7 +279,9 @@ Are you a company looking to find the perfect candidate for your job opening? Th
 
 ### Abstracted and User-Friendly UI
 
-![Add Job UI](link_to_add_job_ui_image)
+![image](https://github.com/DevJSter/aura_hack/assets/115056248/a5b87b67-3693-46db-8b87-aa62204145bd)
+![image](https://github.com/DevJSter/aura_hack/assets/115056248/7a6d9112-4398-4a88-8674-3c3539383ee5)
+
 
 - **Photo:** Enhance the visibility of your job posting by adding a captivating image.
   
@@ -207,6 +316,9 @@ Let's move on to the **Find/Apply Job** section:
 ## Find/Apply Job
 
 Embark on your journey to discover and apply for exciting job opportunities on JobHunt. The Find/Apply Job section showcases all the information you need to make informed decisions about your career.
+
+![image](https://github.com/DevJSter/aura_hack/assets/115056248/bf19c3c8-c47b-4065-9fdb-c97ffea5c450)
+
 
 ### Browse Job Listings
 
@@ -250,6 +362,9 @@ Let's now explore the **Login with Google** section:
 
 ## Login with Google
 
+![image](https://github.com/DevJSter/aura_hack/assets/115056248/8c351ad1-575e-4ee9-883d-40f55bbb897a)
+
+
 Enjoy a seamless and secure authentication process with JobHunt's Google Login feature. Logging in has never been easier, ensuring a swift and hassle-free experience for users.
 
 ### Why Google Login?
@@ -280,3 +395,111 @@ Experience the convenience of Google Login and kickstart your JobHunt journey wi
 
 ---
 
+
+# Technology Stack
+
+JobHunt is built with a robust technology stack, ensuring efficiency, scalability, and a seamless user experience.
+
+- **Frontend:** React.js , TailwindCSS , FramerMotion
+- **Backend:** Django
+- **Database:** Firebase Realtime Database
+- **Authentication:** Firebase Authentication
+- **Deployment:** Vercel Hosting
+
+# Getting Started
+
+To set up and run JobHunt locally, follow these simple steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/jobhunt.git
+   cd jobhunt
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+
+4. Open your browser and visit `http://localhost:3000` to view JobHunt locally.
+
+# Prerequisites
+
+Before running JobHunt, make sure you have the following installed:
+
+- Node.js
+- npm (Node Package Manager)
+
+# FAQs
+
+**Q: How can I reset my password?**
+A: Visit the login page and click on the "Forgot Password" link to initiate the reset process.
+
+**Q: Can I use JobHunt on mobile devices?**
+A: Yes, JobHunt is fully responsive and can be accessed on various devices, including smartphones and tablets.
+
+# Troubleshooting
+
+**Issue: Application fails to start**
+- Ensure that you have Node.js and npm installed.
+- Check your internet connection, as some dependencies may be fetched during installation.
+
+# Contributing Guidelines
+
+We welcome contributions from the community! If you'd like to contribute, follow these guidelines:
+
+1. Fork the repository.
+2. Create a new branch for your feature/bug fix.
+3. Commit your changes and submit a pull request.
+
+# Code of Conduct
+
+We adhere to a Code of Conduct to ensure a positive and inclusive environment for all contributors and users. Please review our [Code of Conduct](CODE_OF_CONDUCT.md) before participating.
+
+# Acknowledgments
+
+We express gratitude to the following individuals and organizations for their contributions, inspiration, and support:
+- vwakeSahu/Sizzling-Dec's
+- Roneet Yadav/Sizzling Dev's
+- Shubham Tiwari/Sizzling Dev's
+- AshutoshSingh
+
+# License
+
+JobHunt is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+Certainly! Here's the modified section for deployment using Vercel:
+
+# Deployment
+
+To deploy JobHunt to Vercel:
+
+1. **Install the Vercel CLI:**
+   ```bash
+   npm install -g vercel
+   ```
+
+2. **Login to Vercel:**
+   ```bash
+   vercel login
+   ```
+
+3. **Deploy to Vercel:**
+   ```bash
+   vercel
+   ```
+
+4. **Follow the prompts to configure your deployment settings.**
+
+Visit the provided Vercel URL to access your deployed JobHunt application.
+
+# Note
+While Vercel is used for deployment, Firebase remains an integral part of JobHunt, handling Google authentication and file storage. Ensure that your Firebase configuration is properly set up for these functionalities.
+
+Feel free to adapt this section based on any specific deployment configurations or steps relevant to your project.
+Visit the provided hosting URL to access your deployed JobHunt application.
