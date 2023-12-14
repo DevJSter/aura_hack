@@ -52,20 +52,22 @@ const PredictionForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+  
     try {
       const response = await axios.post(
-        'https://8235-34-83-224-99.ngrok.io/placement_prediction',
+        'https://2667-14-142-143-98.ngrok.io/placement_prediction',
         formData
       );
-
+  
       console.log('Prediction Result:', response.data);
-      setResult(response.data) // Fixed the typo here
+      setResult(response.data);
     } catch (error) {
       console.error('Error making prediction:', error);
+      // Handle the error, e.g., display an error message to the user
+      setResult("Error making prediction. Please try again.");
     }
   };
-
+  
   return (
     <div className="card" style={{ maxWidth: "600px" }}>
       <div style={{ textAlign: "center" }}>
