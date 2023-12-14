@@ -25,3 +25,4 @@ const StatComponent = ({ value, icon, description, money }) => {
 };
 
 export default StatComponent;
+

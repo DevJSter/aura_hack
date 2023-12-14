@@ -2,10 +2,8 @@ import React from "react";
 
 const Testimonials2 = () => {
   return (
-    <section className="my-8 bg-gray-100 text-gray-800">
-    <div className="container flex flex-col items-center mx-auto mb-12 md:p-10 md:px-12">
-      <h1 className="p-4 text-4xl font-semibold leadi text-center">What our customers are saying about us</h1>
-    </div>
+    <section className="my-8 bg-gray-100 text-gray-800 bg-white">
+   
     <div className="container flex flex-col items-center justify-center mx-auto lg:flex-row lg:flex-wrap lg:justify-evenly lg:px-10">
       <div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
         <div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 bg-gray-50">
@@ -21,9 +19,9 @@ const Testimonials2 = () => {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-blue-600 text-gray-50">
-          <img src="https://source.unsplash.com/50x50/?portrait?1" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
-          <p className="text-xl font-semibold leadi">Distinctio Animi</p>
-          <p className="text-sm uppercase">Aliquam illum</p>
+          <img src="https://irp.cdn-website.com/df735c7c/dms3rep/multi/MicrosoftTeams-image+%28123%29.png" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
+          <p className="text-xl font-semibold leadi">Open.Ai</p>
+          <p className="text-sm uppercase">Ashutosh Singh </p>
         </div>
       </div>
       <div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
@@ -40,9 +38,9 @@ const Testimonials2 = () => {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-blue-600 text-gray-50">
-          <img src="https://source.unsplash.com/50x50/?portrait?2" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
-          <p className="text-xl font-semibold leadi">Distinctio Animi</p>
-          <p className="text-sm uppercase">Aliquam illum</p>
+          <img src="https://pngimg.com/uploads/tesla_logo/tesla_logo_PNG17.png" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
+          <p className="text-xl font-semibold leadi">Tesla</p>
+          <p className="text-sm uppercase">Shubham Tiwari</p>
         </div>
       </div>
       
@@ -50,6 +48,10 @@ const Testimonials2 = () => {
       
     </div>
   </section>
+
+    
+
+
   );
 };
 
