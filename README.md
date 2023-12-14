@@ -32,8 +32,7 @@ JobHunt is your companion on the journey to a fulfilling career. Whether you're 
   - [Prediction](#prediction)
     - [Factors Considered:](#factors-considered)
     - [How It Works:](#how-it-works)
-  - [Updates about How we Make API Calls ( Using the ngrok module )](#updates-about-how-we-make-api-calls--using-the-ngrok-module-)
-- [API Call Updates Readme](#api-call-updates-readme)
+- [Updates about How we Make API Calls ( Using the ngrok module )](#updates-about-how-we-make-api-calls--using-the-ngrok-module-)
   - [Overview](#overview)
   - [Instructions](#instructions)
   - [FastAPI Module](#fastapi-module)
@@ -234,8 +233,7 @@ Unleash the power of predictive analysis with JobHunt! Our advanced algorithm co
    - Receive practical and actionable recommendations to enhance your job search prospects.
    - Benefit from targeted advice on improving specific aspects of your professional profile.
 
-## Updates about How we Make API Calls ( Using the ngrok module )
-# API Call Updates Readme
+# Updates about How we Make API Calls ( Using the ngrok module )
 
 ## Overview
 
