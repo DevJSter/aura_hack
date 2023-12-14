@@ -1,5 +1,5 @@
 /* Require Imports */
-import React from "react";
+import React, { useEffect } from "react";
 import { Routes, BrowserRouter as Router, Route } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -55,6 +55,9 @@ import AdminEditJobType from "./pages/admin/JobCategary/AdminEditJobType";
 import AddJobForm from "./components/AddJobForm";
 import RecentJobs from "./components/RecentJobs";
 import FeaturedJobs from "./components/FeaturedJobs";
+import { useStateValue } from "./context/StateProvider";
+import { getAllJobData } from "./utils/firebaseFunctions";
+import { actionType } from "./context/reducer";
 
 const UserDashBoardHOC = Layout(UserDashBoard);
 const UserJobsHistoryHOC = Layout(UserJobsHistory);
@@ -78,6 +81,20 @@ const AdminDeleteJobTypeHOC = Layout(AdminDeleteJobType);
 const AdminEditJobTypeHOC = Layout(AdminEditJobType);
 
 const App = () => {
+  const [{ jobData }, dispatch] = useStateValue();
+
+  const fetchData = async () => {
+    await getAllJobData().then((data) => {
+      dispatch({
+        type: actionType.SET_JOB,
+        jobData: data,
+      });
+    });
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, []);
   return (
     <>
       {/*  */}
