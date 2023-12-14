@@ -511,6 +511,10 @@ We welcome contributions from the community! If you'd like to contribute, follow
 
 We adhere to a Code of Conduct to ensure a positive and inclusive environment for all contributors and users. Please review our [Code of Conduct](CODE_OF_CONDUCT.md) before participating.
 
+# Our Team 
+
+![Team](https://github.com/SizzlingDev-s/aura_hack/assets/115056248/9c3dbc8f-0164-41f3-abc9-6b47c6dff2ac)
+
 # Acknowledgments
 
 We express gratitude to the following individuals and organizations for their contributions, inspiration, and support:
