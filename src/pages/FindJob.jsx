@@ -90,7 +90,7 @@ function FindJob() {
           <div className="mt-4 flex justify-center gap-5 shadow-lg p-2 rounded-xl">
             <p
               className={`px-4 py-2 rounded-xl cursor-pointer ${
-                isRecentJobsActive ? "bg-lightBlue text-white" : ""
+                isRecentJobsActive ? "bg-blue-500 text-white" : ""
               }`}
               onClick={handleRecentJobsClick}
             >
@@ -98,7 +98,7 @@ function FindJob() {
             </p>
             <p
               className={`px-4 py-2 rounded-xl cursor-pointer ${
-                isFeaturedJobs ? "bg-lightBlue text-white" : ""
+                isFeaturedJobs ? "bg-blue-500 text-white" : ""
               }`}
               onClick={handleFeaturedJobsClick}
             >
@@ -107,7 +107,7 @@ function FindJob() {
             {user && (
               <p
                 className={`border px-4 py-2 rounded-xl cursor-pointer ${
-                  isAddJobActive ? "bg-lightBlue text-white" : ""
+                  isAddJobActive ? "bg-blue-500 text-white" : ""
                 }`}
                 onClick={handleAddJobClick}
               >
