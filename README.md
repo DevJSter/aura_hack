@@ -8,58 +8,68 @@ JobHunt is your companion on the journey to a fulfilling career. Whether you're 
 
 ## Table of Contents
 
-1. [Home](#home)
-   - [Hero Section](#hero-section)
-   - [Testimonials](#testimonials)
-   - [Placement Timeline](#placement-timeline)
-   - [Contact Us](#contact-us)
-2. [About Us](#about-us)
-   - [Mission](#our-mission)
-   - [What Sets Us Apart](#what-sets-us-apart)
-   - [Meet the Team](#meet-the-team)
-   - [Our Story](#our-story)
-3. [Resources](#resources)
-   - [Featured Resources](#featured-resources)
-   - [Learning Paths](#learning-paths)
-   - [Webinars and Workshops](#webinars-and-workshops)
-   - [Additional Tools](#additional-tools)
-4. [Prediction](#prediction)
-   - [Factors Considered](#factors-considered)
-   - [How It Works](#how-it-works)
-   - [Make Informed Career Choices](#make-informed-career-choices)
-5. [Connect](#connect)
-   - [Seamless Networking](#seamless-networking)
-   - [Key Features](#key-features)
-   - [How It Works](#how-it-works-1)
-   - [Elevate Your Networking Experience](#elevate-your-networking-experience)
-6. [Add Job](#add-job)
-   - [Abstracted and User-Friendly UI](#abstracted-and-user-friendly-ui)
-   - [Store Jobs with Firebase](#store-jobs-with-firebase)
-   - [How to Add a Job](#how-to-add-a-job)
-   - [Empower Your Hiring Process](#empower-your-hiring-process)
-7. [Find/Apply Job](#findapply-job)
-   - [Browse Job Listings](#browse-job-listings)
-   - [Detailed Job Descriptions](#detailed-job-descriptions)
-   - [Seamless Application Process](#seamless-application-process)
-   - [Elevate Your Job Search](#elevate-your-job-search)
-8. [Login with Google](#login-with-google)
-   - [Effortless Access](#effortless-access)
-   - [Security First](#security-first)
-   - [Time-Saving](#time-saving)
-   - [How to Login with Google](#how-to-login-with-google)
-   - [Your Data, Your Control](#your-data-your-control)
-   - [Start Your Job Search Journey](#start-your-job-search-journey)
-9. [Technology Stack](#technology-stack)
-10. [Getting Started](#getting-started)
-11. [Prerequisites](#prerequisites)
-12. [Demo/GIFs](#demogifs)
-13. [FAQs](#faqs)
-14. [Troubleshooting](#troubleshooting)
-15. [Contributing Guidelines](#contributing-guidelines)
-16. [Code of Conduct](#code-of-conduct)
-17. [Acknowledgments](#acknowledgments)
-18. [License](#license)
-19. [Deployment](#deployment)
+- [JobHunt](#jobhunt)
+  - [Introduction](#introduction)
+  - [Table of Contents](#table-of-contents)
+  - [Home](#home)
+    - [Hero Section](#hero-section)
+    - [Testimonials](#testimonials)
+    - [Placement Timeline](#placement-timeline)
+    - [Contact Us Section](#contact-us-section)
+  - [About Us](#about-us)
+    - [Our Mission](#our-mission)
+    - [What Sets Us Apart](#what-sets-us-apart)
+    - [Meet the Team](#meet-the-team)
+    - [Our Story](#our-story)
+    - [Join Us on the Journey](#join-us-on-the-journey)
+  - [Whether you're a recent graduate, a seasoned professional, or a company looking for top talent, JobHunt welcomes you to join us on this exciting journey. Together, we'll redefine the way careers are built and opportunities are discovered.](#whether-youre-a-recent-graduate-a-seasoned-professional-or-a-company-looking-for-top-talent-jobhunt-welcomes-you-to-join-us-on-this-exciting-journey-together-well-redefine-the-way-careers-are-built-and-opportunities-are-discovered)
+  - [Resources](#resources)
+    - [Featured Resources](#featured-resources)
+    - [Learning Paths](#learning-paths)
+    - [Webinars and Workshops](#webinars-and-workshops)
+    - [Additional Tools](#additional-tools)
+    - [Stay Informed, Stay Ahead](#stay-informed-stay-ahead)
+  - [Prediction](#prediction)
+    - [Factors Considered:](#factors-considered)
+    - [How It Works:](#how-it-works)
+  - [Updates about How we Make API Calls ( Using the ngrok module )](#updates-about-how-we-make-api-calls--using-the-ngrok-module-)
+- [API Call Updates Readme](#api-call-updates-readme)
+  - [Overview](#overview)
+  - [Instructions](#instructions)
+  - [FastAPI Module](#fastapi-module)
+  - [ngrok Module](#ngrok-module)
+    - [Make Informed Career Choices](#make-informed-career-choices)
+- [Connect](#connect)
+  - [Seamless Networking for Job Seekers and Employers](#seamless-networking-for-job-seekers-and-employers)
+    - [Key Features](#key-features)
+    - [How It Works](#how-it-works-1)
+    - [Elevate Your Networking Experience](#elevate-your-networking-experience)
+  - [Add Job](#add-job)
+    - [Abstracted and User-Friendly UI](#abstracted-and-user-friendly-ui)
+    - [Store Jobs with Firebase](#store-jobs-with-firebase)
+    - [How to Add a Job:](#how-to-add-a-job)
+    - [Empower Your Hiring Process](#empower-your-hiring-process)
+  - [Find/Apply Job](#findapply-job)
+    - [Browse Job Listings](#browse-job-listings)
+    - [Detailed Job Descriptions](#detailed-job-descriptions)
+    - [Seamless Application Process](#seamless-application-process)
+    - [Elevate Your Job Search](#elevate-your-job-search)
+  - [Login with Google](#login-with-google)
+    - [Why Google Login?](#why-google-login)
+    - [How to Login with Google:](#how-to-login-with-google)
+    - [Your Data, Your Control](#your-data-your-control)
+    - [Start Your Job Search Journey](#start-your-job-search-journey)
+- [Technology Stack](#technology-stack)
+- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [FAQs](#faqs)
+- [Troubleshooting](#troubleshooting)
+- [Contributing Guidelines](#contributing-guidelines)
+- [Code of Conduct](#code-of-conduct)
+- [Acknowledgments](#acknowledgments)
+- [License](#license)
+- [Deployment](#deployment)
+- [Note](#note)
 
 Feel free to jump to specific sections or explore the README to get a comprehensive understanding of JobHunt.
 
@@ -223,6 +233,48 @@ Unleash the power of predictive analysis with JobHunt! Our advanced algorithm co
 3. **Actionable Recommendations:**
    - Receive practical and actionable recommendations to enhance your job search prospects.
    - Benefit from targeted advice on improving specific aspects of your professional profile.
+
+## Updates about How we Make API Calls ( Using the ngrok module )
+# API Call Updates Readme
+
+## Overview
+
+This section provides important updates regarding how API calls are made in our deployment environment. The code snippet below demonstrates the setup for making API calls using FastAPI, ngrok, and uvicorn.
+
+```python
+import ngrok
+import nest_asyncio
+import uvicorn
+
+ngrok_tunnel = ngrok.connect(8000)
+print('Public URL:', ngrok_tunnel.public_url)
+nest_asyncio.apply()
+uvicorn.run(app, port=8000)
+```
+
+## Instructions
+
+To successfully make API calls, follow these steps:
+
+1. **Run the FastAPI Notebook**: Ensure that the `fastapi.ipynb` notebook is running. This notebook is crucial for handling API requests. The API will only be accessible while this notebook is actively running on the server.
+
+2. **Issues with AWS Platform**: It's important to note that there were issues with the AWS platform, and, as a result, we decided not to use it for deployment. Even though we generated a valid API endpoint on AWS, the deployment was not utilized. Instead, we are relying on an alternative method using ngrok for the time being.
+
+## FastAPI Module
+
+[FastAPI](https://fastapi.tiangolo.com/) is a modern, fast (high-performance), web framework for building APIs with Python 3.7+ based on standard Python type hints. It allows us to quickly create robust APIs with automatic interactive documentation.
+
+Make sure to familiarize yourself with the FastAPI documentation for a better understanding of how the API routes and functionality are defined in the `fastapi.ipynb` notebook.
+
+## ngrok Module
+
+[ngrok](https://ngrok.com/) is a powerful tool for exposing local servers to the internet. In our deployment, we utilize ngrok to create a secure tunnel to the FastAPI server running on port 8000. The `ngrok.connect(8000)` line in the code establishes this tunnel and provides a public URL that can be used to make API calls externally.
+
+Please keep in mind that the ngrok tunnel is temporary and will be disconnected if the ngrok process is stopped or the server is restarted. Ensure that the FastAPI notebook is running, and the ngrok tunnel is active for uninterrupted API access.
+
+Feel free to reach out if you have any questions or encounter issues with the API deployment.
+
+
 
 ### Make Informed Career Choices
 
