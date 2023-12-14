@@ -118,7 +118,7 @@ function FindJob() {
         </div>
       </div>
 
-      <div className=" flex items-center justify-center gap-4 w-full bg-white px-5 py-4 rounded-lg shadow-smF hover:shadow-lg">
+      <div className=" flex items-center justify-center gap-4 w-full bg-white px-5 py-4 rounded-lg ">
         {/* <a href="#">
             <CustomButton
               text={"Find Job"}
@@ -142,12 +142,12 @@ function FindJob() {
           <input
             type="text"
             placeholder="Job Title"
-            className=" w-full focus:outline-none h-full"
+            className=" w-full hover:shadow-md focus:outline-none h-full"
             value={searchField}
             onChange={handleInputChange}
           />
           <button
-            className=" w-32 h-full bg-lightBlue text-white py-2 rounded-lg px-2"
+            className=" w-32 h-full bg-blue-500 text-white py-2 rounded-lg px-2"
             type="submit"
           >
             Find Job
