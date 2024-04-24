@@ -4,13 +4,13 @@ import { getStorage } from "firebase/storage";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDnhsYfjU56b301iW2OlzM7btcABfuJxkQ",
-  authDomain: "campus-connect-adead.firebaseapp.com",
-  projectId: "campus-connect-adead",
-  storageBucket: "campus-connect-adead.appspot.com",
-  messagingSenderId: "600393992968",
-  appId: "1:600393992968:web:3c5fac04bb8fc5f3c47abd",
-  measurementId: "G-GPZQZFR4QT",
+  apiKey: "AIzaSyCcjsrGDHZS2NlDkrTTRpxAVnyoMzqfssg",
+  authDomain: "pratishtha-e713f.firebaseapp.com",
+  projectId: "pratishtha-e713f",
+  storageBucket: "pratishtha-e713f.appspot.com",
+  messagingSenderId: "536779966295",
+  appId: "1:536779966295:web:7b3a272250b278dd94a012",
+  measurementId: "G-SZ8JX9YKDZ"
 };
 
 
